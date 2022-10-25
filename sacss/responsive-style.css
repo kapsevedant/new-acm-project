@@ -1,0 +1,230 @@
+/*-------------------- RESPONSIVE CSS-----------------------*/
+/*---------------------Progress-Bar ---------------------*/
+@media only screen and (max-width:991px){
+
+#progress{
+height: 50px;
+width: 50px;
+}	
+#progress-value{
+z-index: 9999;  
+font-size: 20px;
+color:#17a2b8;
+}
+}
+/*----------------------------------------------------*/
+
+/*-------------- Nav-Bar----------------------*/
+@media only screen and (max-width:991px){
+.logo img{
+        width: 100px;
+        height: 60px;
+    }
+.navigation{
+       /*position: sticky;
+       top: 0;*/
+       z-index: 99;
+
+}
+
+.navbar-nav li{
+padding-right: 40px;
+font-size: 15px;
+/*font-weight: bold;*/
+}
+.div_ul ul{
+background-color:#17a2b8;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+.div_ul ul li a{
+color: white;
+}
+}
+/*--------------------------------------------*/
+
+/*-------------- Banner Section--------------*/
+@media only screen and (max-width:991px){
+.banner p{
+margin-top: 60px;
+padding-bottom: 0px;
+padding-top: 30px;
+font-size: 40px;
+font-weight:;
+}
+.banner h2{
+font-size: 20px;	
+padding-bottom: 100px;
+}
+}
+
+/*---------------------------------------------*/
+
+/*------------------ About ACM ----------------*/
+@media only screen and (max-width:991px){
+.about-acm h2{
+padding-top: 70px;
+padding-bottom: 50px;
+font-weight: bold;
+font-size: 21px;
+}  
+
+.about-acm p{
+font-size: 15px;
+line-height: 25px;
+padding-bottom: 30px;
+color: grey;
+}  
+
+.visit-acm-btn{
+padding-bottom: 80px;
+}
+
+.visit-acm-btn button{
+color:white;
+letter-spacing: 0.1em;
+font-weight: 300;
+padding: 4px 10px;
+font-size: 0.8rem;
+}
+}
+
+/*---------------------------------------------*/
+
+/*---------------- SVPCET ACM Section--------------*/
+@media only screen and (max-width:991px){
+.svpcet-acm h2{
+padding-top: 60px;
+padding-bottom: 50px;
+font-size: 21px;
+}
+
+.svpcet-acm-row-d1 h4{
+
+font-size: 19px;
+padding-top: 40px;
+padding-bottom: 20px;
+}
+.svpcet-acm-row-d2 h4{
+font-size: 19px;	
+padding-top: 60px;
+padding-bottom: 20px;
+}
+.svpcet-acm-row-d3 h4{
+font-size: 19px;	
+padding-top: 70px;
+padding-bottom: 0px;
+}
+}
+
+/*----------------------------------------------*/
+
+/*----------------- Special Groups ----------------------*/
+
+@media only screen and (max-width:991px){
+.svpcet-acm-next-container{
+padding-bottom: 10px;
+}
+
+.special-groups-row-d1{
+padding-top: 30px;
+}
+
+.special-groups-row-d1 h2{
+font-size: 21px;
+font-weight: bold;
+}
+.special-groups-row-d1 h5{
+font-size: 19px;
+font-weight: lighter;
+}
+}
+/*-----------------------------------------------------*/
+
+/*----------------------- Our Team Section------------*/
+@media only screen and (max-width:991px){
+.our-team-container h2{
+font-size: 24px;
+font-weight: bold;
+padding-bottom: 30px;
+padding-top: 0px;
+}
+
+.our-team-container1 h4{
+font-size: 20px;
+font-weight: bold;
+}
+
+.our-team-row1 h5{
+font-size: 17px;
+}
+.card1{
+width: 190px;
+height: 290px;
+}
+
+.card1:hover{
+transform: translateX(50%);
+}
+
+.content h5{
+font-size: 16px;
+}
+
+.our-team-container2 h4{
+font-size: 20px;
+}
+
+.our-team-row2 h5{
+font-size: 15px;
+}
+
+.our-team-row2 img{
+width: 150px;
+}
+}
+/*-------------------------------------------------------*/
+
+/*-------------- Gallery + Slider --------------------*/
+@media only screen and (max-width:1111px){
+.gallery-main h1{
+font-size: 23px;
+}
+.mission h3{
+font-size: 20px;
+}
+.core-values h3{
+font-size: 20px;
+}
+}
+
+/*-----------------------------------------------------*/
+
+/*------------------Footer Section ---------------------*/
+@media only screen and (max-width:991px){
+.footer h4{
+font-size: 19px;
+}
+.footer h6{
+font-size: 13px;
+}
+.footer-imp-links a{
+font-size: 13px;
+color: #17a2b8;
+}
+
+.design-team h6{
+font-size: 15px;
+font-weight: lighter;
+}
+
+
+.connect-us-icons a{
+font-size:16px;
+}
+}
+/*------------------------------------------------------*/
+
